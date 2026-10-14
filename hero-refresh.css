@@ -14,8 +14,9 @@
 @media(max-width:760px){
   .hero{background:#fbf8f2}
   .hero::before{content:none}
-  .hero-mobile-photo{display:block;width:100%;height:clamp(245px,58vw,360px);background:url('assets/banner-ariele-cr2-mobile.webp') center 27%/cover no-repeat}
-  .hero-grid{display:block;min-height:0;padding-top:27px;padding-bottom:44px}
+  .hero-mobile-photo{position:relative;display:block;width:100%;height:clamp(265px,70vw,340px);background:url('assets/banner-ariele-cr2-mobile.webp') center top/cover no-repeat;overflow:hidden}
+  .hero-mobile-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,rgba(251,248,242,.1) 72%,rgba(251,248,242,.72) 88%,#fbf8f2 100%);pointer-events:none}
+  .hero-grid{display:block;min-height:0;padding-top:17px;padding-bottom:44px}
   .hero-copy{width:100%;max-width:650px}
   .hero h1{font-size:clamp(34px,7vw,47px);line-height:1.17;margin:19px 0}
   .hero-lead{font-size:14px;line-height:1.72;margin-bottom:23px}
