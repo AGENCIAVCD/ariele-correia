@@ -33,3 +33,23 @@
   .hero h1{font-size:clamp(38px,4.7vw,51px)}
   .hero-lead{font-size:14px}
 }
+
+.hero-lead{font-size:16px}
+.hero-proof p{font-size:12px}
+.section-intro p,.care-head p,.about-copy p{font-size:16px}
+.concern-card p{font-size:14px}
+.care-card p{font-size:15px}
+.statement p.statement-support{font-size:15px}
+.final-cta p{font-size:16px}
+.about-signature span,.site-footer p,.footer-right{font-size:12px}
+.footer-instagram{display:inline-flex;align-items:center;gap:7px}
+.footer-instagram svg{width:19px;height:19px;flex:none}
+
+@media(max-width:760px){
+  .hero-lead{font-size:15px;line-height:1.68}
+  .section-intro p,.care-head p,.about-copy p{font-size:15px}
+  .concern-card p{font-size:13px}
+  .care-card p{font-size:14px}
+  .statement p.statement-support{font-size:14px}
+  .final-cta p{font-size:15px}
+}

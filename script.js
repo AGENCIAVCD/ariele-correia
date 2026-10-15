@@ -1,4 +1,4 @@
-const whatsappNumber = '5511999999999'; // Número fictício informado para publicação temporária.
+const whatsappNumber = '5511995132567';
 const whatsappMessage = 'Olá, Ariele! Conheci seu site e gostaria de conversar sobre acompanhamento psicológico infantil.';
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 document.querySelectorAll('[data-whatsapp]').forEach((link) => { link.href = whatsappUrl; });
